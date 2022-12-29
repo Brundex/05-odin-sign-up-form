@@ -1,1 +1,50 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: "Norse Bold";
+    src: url(./Norse-Bold.otf);
+}
+
+#container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Logo side */
+
+#left-side { 
+    background-position: center center;
+    background-image: url("./background.jpg");
+    background-size: cover;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+}
+#logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.5rem;
+    font-family: "Norse Bold";
+    margin-top: 20vh;
+    padding: 16px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#logo-div img {
+    height: 125px;
+}
+
+a {
+    color: white;
+}
+
+/* Form side */
 
